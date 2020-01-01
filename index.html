@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework2, Xingyu Liu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script type="text/javascript" src="./jquery-3.4.0.min.js"></script>
+</head>
+
+<body>
+    <div class="title_block">
+        <h1>Picture Puzzle</h1>
+    </div>
+    <div class="outside_block">
+        <div class="game_block">
+            <div class="grid">
+                <div id="p0"><img></div>
+                <div id="p1"><img></div>
+                <div id="p2"><img></div>
+                <div id="p3"><img></div>
+                <div id="p4"><img></div>
+                <div id="p5"><img></div>
+                <div id="p6"><img></div>
+                <div id="p7"><img></div>
+                <div id="p8"><img></div>
+            </div>
+        </div>
+
+        <div class="menu_block">
+            <div class="menu_content">
+                <div class="origin_img_block">
+                    <img id="origin_img" src="./image/all.jpg">
+                </div>
+                <div class="score_block">
+                    <span id="time_tip" class="tip">时间：</span>
+                    <span id="minute" class="score time">00</span>
+                    <span>:</span>
+                    <span id="second" class="score time">00</span>
+                    <span id="step_tip" class="tip">步数：</span>
+                    <span id="step" class="score">0</span>
+                </div>
+                <button id="reset">重新开始</button>
+                <button id="win">补全最后一块</button>
+                <div class="game_over">
+                    <img id="over_img" src="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom_block">
+        <span class="message">CopyRight Xingyu Liu 3017218063 All rights reserved.</span>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
